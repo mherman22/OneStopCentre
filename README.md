@@ -29,4 +29,35 @@ Welcome to the One Stop Centre! This application allows users to manage a to-do 
 1. Clone the repository or download the source code:
 
    ```bash
-   git clone https://github.com/your-username/your-repo-name.git
+   git clone https://github.com/mherman22/OneStopCentre.git
+2. Navigate to the Project Directory
+    ```bash
+     cd OneStopCentre
+   ```
+3. Compile and Run the Main class
+    ```bash
+     javac Main.java
+     java Main
+    ```
+
+## Usage
+### To-Do List
+1. When prompted, enter `Todo` to access the to-do list application.
+Use the commands:
+- `add` to add a new task.
+- `remove` to remove a task by name.
+- `list` to display all tasks.
+- `exit` to exit the to-do list.
+
+### Unique Username Storage
+Enter `Unique` when prompted. Input a username when asked, and it will be stored if it's unique.
+
+### Phonebook
+Enter `Phone` when prompted (functionality yet to be implemented).
+
+## Contributing
+
+Contributions are welcome! If you have suggestions or improvements, feel free to open an issue or submit a pull request.
+
+## Licence
+This project is licensed under the MIT License - see the LICENSE file for details.
